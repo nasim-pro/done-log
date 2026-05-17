@@ -1,7 +1,7 @@
 {
     "name": "DoneLog",
     "description": "Seamlessly manage tasks, sync with Google Sheets, get inspired with motivational quotes. Click or Ctrl+Shift+L for instant access",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "manifest_version": 3,
     "background": {
       "service_worker": "background.js"
@@ -20,9 +20,9 @@
         "activeTab", "identity", "contextMenus", "commands"
       ],
       "oauth2": {
-        "client_id": "",
+        "client_id": "424944760759-lhrd66345aj3cf1dqjgg76g5v92fsvbu.apps.googleusercontent.com",
         "scopes": [
-          "https://www.googleapis.com/auth/spreadsheets"
+          "https://www.googleapis.com/auth/drive.file"
         ]
       },
       "content_scripts": [
