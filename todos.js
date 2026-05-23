@@ -1,3 +1,4 @@
+// todos.js
 import { pushTodoInSpreadsheet } from './spreadsheet.js';
 
 
@@ -36,7 +37,7 @@ import { pushTodoInSpreadsheet } from './spreadsheet.js';
  */
 (async function showQuote() {
     try {
-        let response = await fetch("https://n451m-dev.github.io/staticjsondata/quote.json");
+        let response = await fetch("https://nasim-pro.github.io/staticjsondata/quote.json");
         let data = await response.json();
         let arrlength = data.length;
         let rnum = Math.floor(Math.random() * arrlength);
